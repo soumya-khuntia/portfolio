@@ -34,7 +34,7 @@ section {
 #scroll-bar {
     width: 100%;
     height: 5px;
-    background-color: #1f242d;
+    background-color: var(--second-bg-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -45,8 +45,7 @@ section {
 
 #scroll {
     height: 100%;
-    background-color: #0ef;
-    /* Change this color as needed */
+    background-color: var(--main-color);
     width: 0;
 }
 
@@ -78,7 +77,6 @@ section {
 
 .logo:hover {
     color: var(--main-color);
-    text-decoration: underline;
 }
 
 .navbar a {
@@ -91,10 +89,6 @@ section {
 .navbar a:hover,
 .navbar a.active {
     color: var(--main-color);
-}
-
-.navbar a:hover {
-    text-decoration: underline;
 }
 
 #menu-icon {
@@ -336,13 +330,14 @@ span {
 }
 
 .flip-card-back {
-    background-color: #2980b9;
+    background-color: var(--second-bg-color);
     color: white;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: self-start;
+    padding-left: 15px;
 }
 
 /* My skills */
