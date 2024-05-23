@@ -2,6 +2,8 @@
 
 This is a personal portfolio website built using HTML, CSS, and JavaScript. The website showcases my skills, qualifications, projects, and contact information.
 
+- [Live Demo](https://soumya-khuntia.github.io/portfolio/)
+
 ## Features
 
 - Responsive design for optimal viewing experience on various devices
